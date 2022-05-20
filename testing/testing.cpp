@@ -1,12 +1,23 @@
 // testing.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+// 
+// Learning C++ 
+// Challenge 01_04
+// Console Interaction, by Eduardo Corpeño 
 
 #include <iostream>
+#include <string>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+using namespace std;
+
+int main() {
+	string str;
+	cout << "What is your name?" << endl;
+	cin >> str;
+	cout << "Your name is " << str;
+	return(0);
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
