@@ -12,9 +12,9 @@ using namespace std;
 
 int main() {
 	string str;
-	cout << "What is your name?" << endl;
+	cout << "What is your name? ";
 	cin >> str;
-	cout << "Your name is " << str;
+	cout << "Your name is " << str << endl;
 	return(0);
 }
 
