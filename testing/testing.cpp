@@ -1,20 +1,34 @@
 // testing.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-// 
-// Learning C++ 
-// Challenge 01_04
-// Console Interaction, by Eduardo Corpeño 
 
 #include <iostream>
 #include <string>
 
 using namespace std;
 
+int a, b = 5; // single line comment
+
+/* Multi
+* line
+* comment */
+
 int main() {
+	bool my_flag;
+	a = 7;
+	my_flag = false;
+	cout << "a = " << a << endl;
+	cout << "flag = " << my_flag << endl;
+	my_flag = true;
+	cout << "flag = " << my_flag << endl;
+	cout << "a+b = " << a + b << endl;
+	cout << "b-a = " << b - a << endl;
+	unsigned int positive;
+	positive = b - a;
+	cout << "b-a (unsigned) = " << positive << endl;
+
 	string str;
 	cout << "What is your name? ";
 	cin >> str;
-	cout << "Your name is " << str << endl;
+	cout << "Hello " << str << endl;
 	return(0);
 }
 
